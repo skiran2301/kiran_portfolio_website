@@ -1,0 +1,162 @@
+/* Reset styles */
+html,
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+p,
+input,
+textarea,
+
+button {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* Global styles */
+body {
+  background-color: #cee3d1d8;
+  color: #0d0c0c;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Navigation */
+header {
+  background-color: #00BFFF;
+  border-radius:2%
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+/* Hero section */
+#hero {
+  text-align: center;
+  padding: 120px 0;
+}
+
+#hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Portfolio section */
+#portfolio .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+#portfolio .item {
+  background-color: #62cfa5;
+  padding: 20px;
+}
+
+#portfolio .item img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Contact section */
+#contact form input,
+#contact form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#contact form textarea {
+  height: 100px;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4ac0d4;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+/* 
+ .button, .tick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  
+
+  
+  .button{
+    width: 300px;
+    height: 80px;
+    background: dodgerblue;
+    border-radius: 6px;
+    transition: all .3s cubic-bezier(0.67, 0.17, 0.40, 0.83);
+  }
+  
+  .button svg {
+    transform: rotate(180deg);
+    transition: all .5s;
+  }
+  
+  .button__circle {
+    width: 120px;
+    height: 120px;
+    background: mediumseagreen;
+    border-radius: 50%;
+    transform: rotate(-180deg);
+  }
+  
+  .button:hover {
+    cursor: pointer;
+  }
+  
+  .tick {
+    color: white;
+    font-size: 2em;
+    transition: all .9s;
+  } */
